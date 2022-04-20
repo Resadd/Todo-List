@@ -6,6 +6,18 @@ btnAdd = document.querySelector(".btn-add");
 ul_div = document.querySelector(".ul-div");
 sortImg = document.querySelector(".image-sort img");
 reverseImg = document.querySelector(".image-reverse img");
+sortImg.addEventListener("mouseover", () => {
+  sortImg.src = "img/sortImg-black.svg";
+});
+sortImg.addEventListener("mouseout", () => {
+  sortImg.src = "img/sortImg.svg";
+});
+reverseImg.addEventListener("mouseover", () => {
+  reverseImg.src = "img/reverseImg-black.svg";
+});
+reverseImg.addEventListener("mouseout", () => {
+  reverseImg.src = "img/reverseImg.svg";
+});
 btnClear.addEventListener("mouseover", () => {
   btnClear.style.background = "purple";
   btnClear.style.color = "white";
@@ -55,7 +67,6 @@ document.addEventListener("keyup", function (event) {
         btnClear.style.justifyContent = "center";
         inp.focus();
       });
-      //Scrol olcusunu duzeltmek
       if (ul_div.children.length > 5) {
         ul_div.style.overflowY = "scroll";
         ul_div.scrollTop = ul_div.scrollHeight;
