@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (min-width: 1001px) {
+  li {
+    list-style: none;
+  }
+  .main {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .container {
+    width: 29.1vw;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 0.868vw;
+  }
+  .header {
+    background-color: #ffdc40;
+    width: 100%;
+    height: 2.4vw;
+    border-top-left-radius: 0.868vw;
+    border-top-right-radius: 0.868vw;
+    margin-bottom: 1.3.9vw;
+    margin-top: -0.026vw;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2.2vw;
+  }
+  .image-sort {
+    display: flex;
+    justify-content: right;
+  }
+  .image-sort img {
+    margin-right: 2vw;
+    margin-top: 1.6vw;
+    width: 2.2vw;
+    cursor: pointer;
+  }
+  .image-reverse {
+    display: flex;
+    justify-content: right;
+  }
+  .image-reverse img {
+    margin-right: 2vw;
+    margin-top: 1.6vw;
+    width: 2.2vw;
+    cursor: pointer;
+    display: none;
+  }
+  .inp-list input {
+    width: 16.4vw;
+    border: none;
+    outline: none;
+    margin-right: 2.5vw;
+  }
+  input[type="text"] {
+    font-size: 1.5vw;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .inp-div {
+    margin-top: 0.9vw;
+    width: 24.8vw;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 0.8vw;
+    margin-left: 2.6vw;
+  }
+  .inp-list {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    padding: 0.6vw;
+  }
+  .clear-btn {
+    margin-top: 0.4vw;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    background: none;
+    width: 1.7vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6vw;
+  }
+  .delete-btn {
+    margin-top: 0.4vw;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    background: none;
+    width: 1.7vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6vw;
+  }
+  .clear-btn img {
+    width: 0.6vw;
+  }
+  .delete-btn img {
+    width: 0.6vw;
+  }
+  .icon button {
+    background: transparent;
+  }
+  .btn-main-add {
+    margin-top: 1.5vw;
+  }
+  .btn-add {
+    cursor: pointer;
+    width: 15vw;
+    height: 3.9vw;
+    background: #833ae0;
+    border-radius: 6.1vw;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.649vw;
+  }
+  .btn-container-add {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn-plus {
+    width: 3.9vw;
+    height: 3.9vw;
+    background: #9953f1;
+    border-radius: 6.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-text {
+    margin-right: 3.3vw;
+  }
+  .ul-div {
+    max-height: 17vw;
+  }
+  .li-div {
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .list-text p {
+    width: 16.4vw;
+    margin-right: 2.5vw;
+    font-size: 1.5vw;
+  }
+  .list-text {
+    display: flex;
+    align-items: center;
+    padding-left: 0.6vw;
+  }
+  .delete-btn{
+    cursor: pointer;
+  }
+}
+/* TAbLET */
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  li {
+    list-style: none;
+  }
+  .main {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .container {
+    width: 35vw;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 0.868vw;
+  }
+  .header {
+    background-color: #ffdc40;
+    width: 100%;
+    height: 2.4vw;
+    border-top-left-radius: 0.868vw;
+    border-top-right-radius: 0.868vw;
+    margin-bottom: 1.3.9vw;
+    margin-top: -0.026vw;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2.7vw;
+  }
+  .image-sort {
+    display: flex;
+    justify-content: right;
+  }
+  .image-sort img {
+    margin-right: 2vw;
+    margin-top: 1.6vw;
+    width: 3vw;
+    cursor: pointer;
+  }
+
+  .image-reverse {
+    display: flex;
+    justify-content: right;
+  }
+  .image-reverse img {
+    margin-right: 2vw;
+    margin-top: 1.6vw;
+    width: 3vw;
+    display: none;
+    cursor: pointer;
+  }
+  .inp-list input {
+    width: 19vw;
+    border: none;
+    outline: none;
+    margin-right: 5.5vw;
+  }
+  input[type="text"] {
+    font-size: 1.3vw;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .inp-div {
+    margin-top: 0.9vw;
+    width: 30vw;
+    max-height: 16.406vw;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 0.8vw;
+    margin-left: 2.6vw;
+    margin-bottom: 2.2vw;
+  }
+  .inp-list {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    padding: 0.6vw;
+  }
+  .clear-btn {
+    margin-top: 0.4vw;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    background: none;
+    width: 1.7vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6vw;
+  }
+  .delete-btn {
+    margin-top: 0.4vw;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    background: none;
+    width: 1.7vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6vw;
+    cursor: pointer;
+  }
+  .clear-btn img {
+    width: 0.6vw;
+    cursor: pointer;
+  }
+  .delete-btn img {
+    width: 0.6vw;
+    cursor: pointer;
+  }
+  .icon button {
+    background: transparent;
+  }
+  .btn-main-add {
+    margin-top: 1.5vw;
+  }
+  .btn-add {
+    cursor: pointer;
+    width: 18vw;
+    height: 4.9vw;
+    background: #833ae0;
+    border-radius: 6.1vw;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vw;
+  }
+  .btn-container-add {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn-plus {
+    width: 4.9vw;
+    height: 4.9vw;
+    background: #9953f1;
+    border-radius: 6.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-text {
+    margin-right: 5vw;
+  }
+  .ul-div {
+    max-height: 12vw;
+  }
+  .li-div {
+    cursor: pointer;
+  }
+  .list-text p {
+    width: 16.4vw;
+    margin-right: 8vw;
+    font-size: 1.3vw;
+  }
+  .list-text {
+    display: flex;
+    align-items: center;
+    padding-left: 0.6vw;
+  }
+  .delete-btn{
+    cursor: pointer;
+  }
+}
