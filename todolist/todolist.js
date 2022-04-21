@@ -1,11 +1,11 @@
-btnClear = document.querySelector(".clear-btn");
-inp = document.querySelector("input");
-inp_div = document.querySelector(".inp-div");
-inp_list = document.querySelector(".inp-list");
-btnAdd = document.querySelector(".btn-add");
-ul_div = document.querySelector(".ul-div");
-sortImg = document.querySelector(".image-sort img");
-reverseImg = document.querySelector(".image-reverse img");
+let btnClear = document.querySelector(".clear-btn");
+let inp = document.querySelector("input");
+let inp_div = document.querySelector(".inp-div");
+let inp_list = document.querySelector(".inp-list");
+let btnAdd = document.querySelector(".btn-add");
+let ul_div = document.querySelector(".ul-div");
+let sortImg = document.querySelector(".image-sort img");
+let reverseImg = document.querySelector(".image-reverse img");
 sortImg.addEventListener("mouseover", () => {
   sortImg.src = "img/sortImg-black.svg";
 });
