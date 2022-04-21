@@ -32,7 +32,7 @@ btnClear.addEventListener("click", () => {
   inp.value = "";
 });
 let bol = false;
-var a = 0;
+let a = 0;
 const listItems = [];
 document.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
@@ -55,7 +55,7 @@ document.addEventListener("keyup", function (event) {
       listItems.push(new_div_li);
       a += 1;
       ul_div.append(new_div_li);
-      ul_div.style.padding = "0.6vw 0";
+      ul_div.style.padding = "7.52px 0";
       pInp = document.querySelector(".list-text p");
       if ((inp.value.length / pInp.offsetWidth) * 100 > 14) {
         p.style.overflowX = "scroll";
@@ -66,10 +66,18 @@ document.addEventListener("keyup", function (event) {
         inp_list.style.display = "flex";
         btnClear.style.justifyContent = "center";
         inp.focus();
+        if (ul_div.children.length > 5) {
+          ul_div.style.overflowY = "scroll";
+          ul_div.scrollTop = ul_div.scrollHeight;
+          ul_div.style.paddingTop = "5px";
+          ul_div.style.paddingBottom = "0px";
+        }
       });
       if (ul_div.children.length > 5) {
         ul_div.style.overflowY = "scroll";
         ul_div.scrollTop = ul_div.scrollHeight;
+        ul_div.style.paddingTop = "5px";
+        ul_div.style.paddingBottom = "0px";
       }
       sortImg.addEventListener("click", sortList);
       deleteList();
@@ -80,7 +88,7 @@ document.addEventListener("keyup", function (event) {
 });
 function styleFunction() {
   inp_list.style.display = "none";
-  inp_list.style.padding = "0.6vw";
+  // inp_list.style.padding = "11.52px 11.52px 11.52px 16.52px";
   inp.focus();
 }
 function dragStart() {

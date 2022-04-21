@@ -2,183 +2,6 @@
   margin: 0;
   padding: 0;
 }
-/* @media only screen and (min-width: 1001px) {
-  li {
-    list-style: none;
-  }
-  .main {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-  }
-  .container {
-    width: 335.232px;
-    border: 1.002px solid #c4c4c4;
-    box-sizing: border-box;
-    border-radius: 9.999px;
-  }
-  .header {
-    background-color: #ffdc40;
-    width: 100%;
-    height: 27.648px;
-    border-top-left-radius: 9.999px;
-    border-top-right-radius: 9.999px;
-    margin-bottom: 1.44.928px;
-    margin-top: -0.3px;
-  }
-  h2 {
-    text-align: center;
-    font-size: 25.344px;
-  }
-  .image-sort {
-    display: flex;
-    justify-content: right;
-  }
-  .image-sort img {
-    margin-right: 23.04px;
-    margin-top: 18.432px;
-    width: 25.344px;
-    cursor: pointer;
-  }
-  .image-reverse {
-    display: flex;
-    justify-content: right;
-  }
-  .image-reverse img {
-    margin-right: 23.04px;
-    margin-top: 18.432px;
-    width: 25.344px;
-    cursor: pointer;
-    display: none;
-  }
-
-  .inp-list input {
-    width: 188.928px;
-    border: none;
-    outline: none;
-    margin-right: 28.8px;
-  }
-  input[type="text"] {
-    font-size: 17.28px;
-    font-family: "Times New Roman", Times, serif;
-  }
-  .inp-div {
-    margin-top: 10.368px;
-    width: 285.696px;
-    border: 0.087vw solid #c4c4c4;
-    box-sizing: border-box;
-    border-radius: 9.216px;
-    margin-left: 29.952px;
-  }
-  .inp-list {
-    display: flex;
-    align-items: center;
-    font-size: 11.52px;
-    padding: 6.912px;
-  }
-  .clear-btn {
-    margin-top: 4.608px;
-    border-radius: 50%;
-    border: 0.087vw solid #c4c4c4;
-    background: none;
-    width: 19.584px;
-    height: 19.584px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6.912px;
-  }
-  .delete-btn {
-    margin-top: 4.608px;
-    border-radius: 50%;
-    border: 0.087vw solid #c4c4c4;
-    background: none;
-    width: 19.584px;
-    height: 19.584px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6.912px;
-  }
-  .clear-btn img {
-    width: 6.912px;
-  }
-  .delete-btn img {
-    width: 6.912px;
-  }
-  .icon button {
-    background: transparent;
-  }
-  .btn-main-add {
-    margin-top: 17.28px;
-  }
-  .btn-add {
-    cursor: pointer;
-    width: 172.8px;
-    height: 44.928px;
-    background: #833ae0;
-    border-radius: 70.272px;
-    border: none;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4vw;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 18.996px;
-    transition: 0.4s;
-  }
-  .btn-add:hover{
-    background-color: #6d27c9;
-
-  }
-  .btn-container-add {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .btn-plus {
-    width: 44.928px;
-    height: 44.928px;
-    background: #9953f1;
-    border-radius: 70.272px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .btn-text {
-    margin-right: 38.016px;
-  }
-  .btn-text p {
-    font-size: 14px;
-  }
-  .ul-div {
-    max-height: 195.84px;
-  }
-  .li-div {
-    cursor: pointer;
-    margin: 9.999px 0;
-  }
-  .list-text p {
-    width: 188.928px;
-    margin-right: 28.8px;
-    font-size: 17.28px;
-  }
-  .list-text {
-    display: flex;
-    align-items: center;
-    padding-left: 6.912px;
-  }
-  .delete-btn{
-    cursor: pointer;
-  }
-} */
-/* TAbLET */
 @media only screen and (min-width: 650px) {
   li {
     list-style: none;
@@ -200,10 +23,10 @@
   .header {
     background-color: #ffdc40;
     width: 100%;
-    height: 27.648px;
+    height: 28.648px;
     border-top-left-radius: 9.999px;
     border-top-right-radius: 9.999px;
-    margin-bottom: 1.44.928px;
+    margin-bottom: 10px;
     margin-top: -0.3px;
   }
   h2 {
@@ -236,7 +59,7 @@
     width: 218.88px;
     border: none;
     outline: none;
-    margin-right: 63.36px;
+    margin-right: 62.36px;
   }
   input[type="text"] {
     font-size: 14.976px;
@@ -245,7 +68,7 @@
   .inp-div {
     margin-top: 10.368px;
     width: 345.6px;
-    max-height: 188.997px;
+    max-height: 247.997px;
     border: 0.087vw solid #c4c4c4;
     box-sizing: border-box;
     border-radius: 9.216px;
@@ -256,7 +79,7 @@
     display: flex;
     align-items: center;
     font-size: 11.52px;
-    padding: 6.912px;
+    padding: 11.52px 11.52px 11.52px 16.52px
   }
   .clear-btn {
     margin-top: 4.608px;
@@ -314,6 +137,9 @@
     align-items: center;
     margin-bottom: 34.56px;
   }
+  .btn-add:hover{
+    background: #613ae0;
+  }
   .btn-container-add {
     display: flex;
     align-items: center;
@@ -332,10 +158,12 @@
     margin-right: 57.6px;
   }
   .ul-div {
-    max-height: 138.24px;
+    max-height: 174.24px;
+    margin-left:10px;
   }
   .li-div {
     cursor: pointer;
+    margin:10px 0;
   }
   .list-text p {
     width: 188.928px;
@@ -347,7 +175,7 @@
     align-items: center;
     padding-left: 6.912px;
   }
-  .delete-btn{
+  .delete-btn {
     cursor: pointer;
   }
 }
@@ -409,7 +237,7 @@
     width: 160px;
     border: none;
     outline: none;
-    margin-right: 10px;
+    margin-right: 12px;
     display: block;
   }
   input[type="text"] {
@@ -419,7 +247,7 @@
   .inp-div {
     margin-top: 10.368px;
     width: 219px;
-    max-height: 188.997px;
+    max-height: 220.997px;
     border: 0.087vw solid #c4c4c4;
     box-sizing: border-box;
     border-radius: 9.216px;
@@ -491,6 +319,9 @@
     align-items: center;
     margin-bottom: 34.56px;
   }
+  .btn-add:hover{
+    background: #613ae0;
+  }
   .btn-container-add {
     display: flex;
     align-items: center;
@@ -510,15 +341,17 @@
   }
   .ul-div {
     width: 200px;
-    max-height: 120px;
+    max-height: 160px;
     margin-right: 0;
+    margin-left: 5px;
   }
   .li-div {
     cursor: pointer;
+    margin:7px 0;
   }
   .list-text p {
     width: 200.928px;
-    margin-right: 92.16px;
+    margin-right: 80px;
     font-size: 14.976px;
   }
   .list-text {
@@ -526,7 +359,7 @@
     align-items: center;
     padding-left: 6.912px;
   }
-  .delete-btn{
+  .delete-btn {
     cursor: pointer;
   }
 }
